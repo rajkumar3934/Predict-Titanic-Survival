@@ -54,6 +54,7 @@ The model predicts the survival outcome for the following sample passengers:
 - Jack: [0.0, 20.0, 0.0, 0.0]
 - Rose: [1.0, 17.0, 1.0, 0.0]
 - You: [0.0, 24.0, 0.0, 1.0]
+
 The predictions are as follows:
 
 - Jack: Not Survived
