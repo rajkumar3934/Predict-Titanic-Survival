@@ -17,8 +17,9 @@ To run the project, you'll need the following dependencies:
 ## Installation
 
 To use this script, first clone the repository:
-
+```shell
 $ git clone https://github.com/rajkumar3934/titanic-survival-prediction.git
+```
 
 Change into the project directory:
 
@@ -33,18 +34,18 @@ $ pip install pandas numpy matplotlib scikit-learn
 ## Usage
 
 To run the script, simply execute the `titanic_prediction.py` file:
-
+```shell
 $ python titanic_prediction.py
-
+```
 The script will train the logistic regression model on the dataset, evaluate its performance, and provide survival predictions for sample passengers.
 
 ## Results
 
-The trained logistic regression model achieves an accuracy of XX% on the training data and XX% on the test data. The coefficients of the model indicate the impact of each feature on the survival prediction.
+The trained logistic regression model achieves an accuracy of 79% on the training data and 78% on the test data. The coefficients of the model indicate the impact of each feature on the survival prediction.
 
 Here is an example of the coefficients:
 
-['Sex', 'Age', 'FirstClass', 'SecondClass']      [0.XXX, -0.XXX, 0.XXX, -0.XXX]
+[('Sex', 1.1875166993955768), ('Age', -0.3491925085457576), ('FirstClass', 0.9232550433575493), ('SecondClass', 0.5099535431171025)]
 
 ## Sample Predictions
 
