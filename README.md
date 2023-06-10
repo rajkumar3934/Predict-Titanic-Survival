@@ -28,6 +28,7 @@ Then, install the required dependencies:
 
 ```shell
 $ pip install pandas numpy matplotlib scikit-learn
+```shell
 
 ## Usage
 
